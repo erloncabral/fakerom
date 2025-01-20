@@ -11,7 +11,7 @@ void print_success(size_t size) {
 void print_help() {
     puts("FakeROM v1.0 (C) 2025 by Erlon Cabral");
     puts("Utility for create an empty ROM with specific size.\n");
-    puts("Usage: fakerom -d <rom_size>");
+    puts("Usage: fakerom -r <rom_size>");
     puts("-r <rom_size>\n\tEnter a ROM size like 4, 8, 16, 32 (max 500)...");
 }
 
